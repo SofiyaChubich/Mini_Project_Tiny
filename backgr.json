@@ -6,7 +6,7 @@
 		"Persuasion": -2,
 		"Intelligence": -1,
 		"Wisdom": 1,
-		"Weapon": 2d6,
+		"Weapon": "2d6",
 		"Constittution": 3,
 		"HP": 12,
 		"Skill": "rage"
@@ -19,7 +19,7 @@
 		"Intelligence": 3,
 		"Wisdom": -1,
 		"Constittution": 1,
-		"Weapon": 1d8,
+		"Weapon": "1d8",
 		"HP" 8,
 		"Skill": "sneak_attack"
 	},
@@ -31,8 +31,8 @@
 		"Intelligence":-3,
 		"Wisdom":2,
 		"Constittution": 1,
-		"Weapon":,
-		"HP" 6:
+		"Weapon": "1d6",
+		"HP" 8:,
 		"Skill": "charm" 
 	}
 }
