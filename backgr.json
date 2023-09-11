@@ -28,7 +28,7 @@
 		"Strength":-4,
 		"Dexterity": 2,
 		"Persuasion": 4,
-		"Intelligence":-3,
+		"Intelligence": -3,
 		"Wisdom":2,
 		"Constittution": 1,
 		"Weapon": "1d6",
