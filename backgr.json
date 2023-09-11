@@ -1,8 +1,38 @@
 {
 	"barbarian": {
-	}
+		"AC": 10,
+		"Strength": 4,
+		"Dexterity": -1,
+		"Persuasion": -2,
+		"Intelligence": -1,
+		"Wisdom": 1,
+		"Weapon": 2d6,
+		"Constittution": 3,
+		"HP": 12,
+		"Skill": "rage"
+	},
 	"rogue" : {
-	}
+		"AC": 11,
+		"Strength": -2,
+		"Dexterity": 4,
+		"Persuasion": -2,
+		"Intelligence": 3,
+		"Wisdom": -1,
+		"Constittution": 1,
+		"Weapon": 1d8,
+		"HP" 8,
+		"Skill": "sneak_attack"
+	},
 	"bard" : {
+		"AC": 12,
+		"Strength":-4,
+		"Dexterity": 2,
+		"Persuasion" 4:,
+		"Intelligence":-3,
+		"Wisdom":2,
+		"Constittution": 1,
+		"Weapon":,
+		"HP" 6:
+		"Skill": "charm" 
 	}
 }
