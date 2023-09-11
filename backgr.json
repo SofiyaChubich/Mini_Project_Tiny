@@ -20,7 +20,7 @@
 		"Wisdom": -1,
 		"Constittution": 1,
 		"Weapon": "1d8",
-		"HP" 8,
+		"HP": 8,
 		"Skill": "sneak_attack"
 	},
 	"bard" : {
@@ -32,7 +32,7 @@
 		"Wisdom":2,
 		"Constittution": 1,
 		"Weapon": "1d6",
-		"HP" 8:,
+		"HP": 8,
 		"Skill": "charm" 
 	}
 }
