@@ -1,6 +1,12 @@
 {
 	"1": {
-		"boss": ""
+		"zombie": { 
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "extra_attack",
+			"AC": 9,
+			"Modifier": 2
+		}
 	},
 	"2" : {
 		"boss": ""
