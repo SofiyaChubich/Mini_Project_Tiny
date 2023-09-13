@@ -1,0 +1,24 @@
+{
+    "fast_attack": {
+        "damage": "1d10",
+        "status": "None",
+        "dependant": false
+    },
+    "rage": {
+        "damage": 0,
+        "status": "raging",
+        "dependant": false
+    },
+    "sneak": {
+        "damage": 0,
+        "status": "hidden",
+        "dependant": true
+    },
+    "charm": {
+        "damage": 0,
+        "status": "charming",
+        "dependant": true
+    }
+
+
+}

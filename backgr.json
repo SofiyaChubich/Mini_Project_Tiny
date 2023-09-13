@@ -21,7 +21,7 @@
 		"Constittution": 1,
 		"Weapon": "1d8",
 		"HP": 8,
-		"Skill": "sneak_attack"
+		"Skill": "sneak"
 	},
 	"bard" : {
 		"AC": 12,

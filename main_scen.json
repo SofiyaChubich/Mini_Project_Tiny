@@ -3,9 +3,9 @@
 		"zombie": { 
 			"HP": 20,
 			"Weapon": "1d8",
-			"Legendary_sk": "extra_attack",
+			"Legendary_sk": "fast_attack",
 			"AC": 9,
-			"Modifier": 2
+			"Modifier": 5
 		}
 	},
 	"2" : {
