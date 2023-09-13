@@ -58,6 +58,9 @@ def roll_dice(count, num):
     return roll
 
 def special_skill(skill):
+    if skill["dependant"]:
+    chance = roll_dice(1, 2)
+    if chance == 1:
     global ch
     dict_ = load_data("special_skills.json")[skill]
     if skill["damage"] != 0:
