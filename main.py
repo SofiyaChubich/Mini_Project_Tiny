@@ -48,12 +48,14 @@ def boss_fight(boss):
             chance = roll_dice(1, 2)
             if boss_roll >= ch["AC"]:
                 damage = roll_dice(int(boss["Weapon"].split("d")[0]), int(boss["Weapon"].split("d")[1]))
+                if "raging" in ch["status"]:
+                    damage /= 2
                 ch["HP"] -= damage
                 print("You suffer ", damage, " points of damage.")
             else:
                 print("It misses")
 
-            if chance == 1:
+            if chance == 1 and "Legendary_sk" in boss.keys():
                 print("Your opponent used ", boss["Legendary_sk"])
                 special_skill(boss["Legendary_sk"])
         if choice == "2" and "raging" in ch["status"]:
@@ -70,6 +72,7 @@ def main_event(event):
         print(event["Outro L"])
     else:
         print(event["Outro W"])
+    ch["status"] = ""
 
 
 def side_event(number_ev):
@@ -134,7 +137,7 @@ def special_skill(skill):
             print("You suffer ", damage, " points of damage.")
         if skill["status"] != "None":
             ch["status"].append(skill["status"])
-            print("You are ", skill["status"])
+            print("You are", skill["status"], ".")
 
 
 
@@ -145,11 +148,15 @@ ch = get_stats(cl)
 main_q = load_data("main_scen.json")
 print("You wake up in what looks to be an abandoned wherehouse.\nYou don't remember who you are or where you came from.")
 print(ch["Intro"])
-list_ = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list_ = ["1", "2", "3", "4", "5", "6"]
 for i in range(1, 4):
     main_event(main_q[str(i)])
+    if ch["HP"] <= 0:
+        break
     if i != 3:
         for _ in range(3):
             ran = random.choice(list_)
             list_.remove(ran)
             side_event(ran) 
+            if ch["HP"] <= 0:
+                break

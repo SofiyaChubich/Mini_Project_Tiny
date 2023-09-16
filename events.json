@@ -116,87 +116,26 @@
 		"Loot": 6
 	},
 	"6" : {
-		"Intro": "",
-		"P_AC": 0,
-		"S_AC": 0,
-		"D_AC": 0,
-		"P_S": "",
-		"S_S": "",
-		"D_S": "",
+		"Intro": "You come across a hill.\nYou notice a bunch of dung beetles scuttling on top of it.",
+		"P_AC": 17,
+		"S_AC": 11,
+		"D_AC": 15,
+		"P_S": "After realising that you can't talk to the beetles, you simply walk around the hill.",
+		"S_S": "You confidently stride over the hill, whenever a beetle even tries to come close, you simply grab it and yeet it away.",
+		"D_S": "You remember that beetles have really bad eyesight.\nThis allows you to stealth your way past them.",
 		"boss": {
-			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
-			"HP": 20,
-			"Weapon": "1d8",
-			"Legendary_sk": "fast attack",
-			"AC": 8,
-			"Modifier": 3,
-			"Attack_s": "The zombie takes a swing at you.",
-			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
-			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+			"Intro": "When the beetles see you approach they swarm around you..",
+			"HP": 15,
+			"Weapon": "1d3",
+			"Legendary_sk": "None",
+			"AC": 4,
+			"Modifier": 1,
+			"Attack_s": "One of the beetles tries to bite you.",
+			"Outro L": "You are overcome by the swarm, and forced to feel them eating through your body.\nYou are dead.",
+			"Outro W":"You quickly dispatch the swarm.\nThey never stood a chance."
 		},
-		"Loot": ""
-	},
-	"7" : {
-		"Intro": "",
-		"P_AC": 0,
-		"S_AC": 0,
-		"D_AC": 0,
-		"P_S": "",
-		"S_S": "",
-		"D_S": "",
-		"boss": {
-			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
-			"HP": 20,
-			"Weapon": "1d8",
-			"Legendary_sk": "fast attack",
-			"AC": 8,
-			"Modifier": 3,
-			"Attack_s": "The zombie takes a swing at you.",
-			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
-			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
-		},
-		"Loot": ""
-	},
-	"8" : {
-		"Intro": "",
-		"P_AC": 0,
-		"S_AC": 0,
-		"D_AC": 0,
-		"P_S": "",
-		"S_S": "",
-		"D_S": "",
-		"boss": {
-			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
-			"HP": 20,
-			"Weapon": "1d8",
-			"Legendary_sk": "fast attack",
-			"AC": 8,
-			"Modifier": 3,
-			"Attack_s": "The zombie takes a swing at you.",
-			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
-			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
-		},
-		"Loot": ""
-	},
-	"9" : {
-		"Intro": "",
-		"P_AC": 0,
-		"S_AC": 0,
-		"D_AC": 0,
-		"P_S": "",
-		"S_S": "",
-		"D_S": "",
-		"boss": {
-			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
-			"HP": 20,
-			"Weapon": "1d8",
-			"Legendary_sk": "fast attack",
-			"AC": 8,
-			"Modifier": 3,
-			"Attack_s": "The zombie takes a swing at you.",
-			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
-			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
-		},
-		"Loot": ""
+		"Loot_type": "Weapon",
+		"Loot_text": "Inside of the holes that the beetles dug, you find a gun.",
+		"Loot": "1d14"
 	}
 }
