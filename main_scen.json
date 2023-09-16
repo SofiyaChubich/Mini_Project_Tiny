@@ -1,17 +1,35 @@
 {
 	"1": {
-		"zombie": { 
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
 			"HP": 20,
 			"Weapon": "1d8",
-			"Legendary_sk": "fast_attack",
-			"AC": 9,
-			"Modifier": 5
-		}
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.",
+			"Outro W":"The zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
 	},
 	"2" : {
-		"boss": ""
+		"Intro": "You hear something dripping nearby.\nYou turn around and see a zombie with a swollen stomach, limping towards you.\nIt's saliva is dripping from it's mouth and it lets out a ghastly moan.",
+		"HP": 40,
+		"Weapon": "1d10",
+		"Legendary_sk": "acid splash",
+		"AC": 12,
+		"Modifier": 5,
+		"Attack_s": "The abomination gurgles and spits in your direction.",
+		"Outro L": "You feel your bones start to melt from all the acid.\nYou are dead.",
+		"Outro W":"You cover yourself, as the abomination implodes inward, and sizzles into an acid puddle.\nYou have survived the encounter."
 	},
 	"3" : {
-		"boss": ""
+		"Intro": "The ground shakes.\nYou look up and see a pile of flesh, arms, legs and faces all melted into one, approach you.",
+		"HP": 60,
+		"Weapon": "1d12",
+		"Legendary_sk": "mighty roar",
+		"AC": 16,
+		"Modifier": 8,
+		"Attack_s": "One of the many hands takes a swipe at you, while all the face morph into hideous laughter.",
+		"Outro L": "You feel yourself being pulled and then absorbed into the flesh pile.\nYou are dead.",
+		"Outro W": "You jam your weapon deep into the creature's maw, until you feel something give.\nThe creature lets out a wail and explodes, blood and guts everywhere.\nYou have survived the encounter."
 	}
 }

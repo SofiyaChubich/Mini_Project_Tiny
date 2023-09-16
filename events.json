@@ -1,20 +1,196 @@
 {
-	"event1" : [
-	],
-	"event2" : [
-	],
-	"event3" : [
-	],
-	"event4" : [
-	],
-	"event5" : [
-	],
-	"event6" : [
-	],
-	"event7" : [
-	],
-	"event8" : [
-	],
-	"event9" : [
-	]
+	"1" : {
+		"Intro": "On the horizon you notice a tree with a survivior sitting underneath it. He may have supplies that you need.",
+		"P_AC": 13,
+		"S_AC": 14,
+		"D_AC": 10,
+		"P_S": "After explaining your situation, he agrees to help you out.",
+		"S_S": "Your formidabble stature scares the survivor and he runs away, thankfully, leaving his supplies behind.",
+		"D_S": "While the survivor is dosing off, you sneak up behind him and manage to yank his supplies.",
+		"fail": "boss",
+		"boss": {
+			"Intro": "The survivor notices you. He decides that best defence is attack.",
+			"HP": 8,
+			"Weapon": "1d4",
+			"Legendary_sk": "None",
+			"AC": 3,
+			"Modifier": 1,
+			"Attack_s": "The survivor tries to slash you with his swiss knife.",
+			"Outro L": "The survivor turned ou to be right, as you were felled quite easily.\nYou are dead.",
+			"Outro W":"The survivor made a griveous mistake, as you dispatch him easily and continue on."
+		},
+		"Loot_type": "AC",
+		"Loot_text": "You take the survivor's arm guards and helmet.\nYou feel more protected.",
+		"Loot": 6
+	},
+	"2" : {
+		"Intro": "After venturing further into the wasteland, you stumble upon a fresh corpse.",
+		"P_AC": 18,
+		"S_AC": 10,
+		"D_AC": 16,
+		"P_S": "You start singing a calming lullaby just in case.\nNothing happens, so you assume it works.",
+		"S_S": "You stomp on the corpse repeatedly juat in case.\nIt doesn't get up, so that's a win.",
+		"D_S": "You quickly empty the corpse and dash away, before anything bad could happen.",
+		"boss": {
+			"Intro": "The corpse gets up as soon as you approach. Great, you think sarcastically, another zombie.",
+			"HP": 7,
+			"Weapon": "1d4",
+			"Legendary_sk": "None",
+			"AC": 2,
+			"Modifier": -1,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.",
+			"Outro W":"The zombie's head falls to your feet.\nThank god."
+		},
+		"Loot_type": "Strength",
+		"Loot_text": "The survivor had a self-help book on bodybuilding.\nYou feel stronger already.",
+		"Loot": 4
+	},
+	"3" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	},
+	"4" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	},
+	"5" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	},
+	"6" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	},
+	"7" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	},
+	"8" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	},
+	"9" : {
+		"Intro": "",
+		"P_AC": 0,
+		"S_AC": 0,
+		"D_AC": 0,
+		"P_S": "",
+		"S_S": "",
+		"D_S": "",
+		"boss": {
+			"Intro": "You hear footsteps approaching from the other end of the wherehouse.\nA decaying zombie lambers into view.",
+			"HP": 20,
+			"Weapon": "1d8",
+			"Legendary_sk": "fast attack",
+			"AC": 8,
+			"Modifier": 3,
+			"Attack_s": "The zombie takes a swing at you.",
+			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.\nYou exit the wherehouse, and into the wasteland.",
+			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter.\nYou exit the wherehouse, and into the wasteland."
+		},
+		"Loot": ""
+	}
 }

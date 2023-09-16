@@ -1,5 +1,5 @@
 {
-    "fast_attack": {
+    "fast attack": {
         "damage": "1d10",
         "status": "None",
         "dependant": false
@@ -17,8 +17,17 @@
     "charm": {
         "damage": 0,
         "status": "charming",
+        "dependant": false
+    },
+    "acid splash": {
+        "damage": "1d4",
+        "status": "poisoned",
+        "dependant": true
+    },
+    "mighty roar": {
+        "damage": "1d4",
+        "status": "frightened",
         "dependant": true
     }
-
 
 }
