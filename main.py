@@ -94,9 +94,19 @@ def side_event(number_ev):
 
     if success:
         if choice == "1":
-            
+            print(event["P_S"])
+        elif choice == "2":
+            print(event["S_S"])
+        elif choice == "3":
+            print(event["D_S"])
     else:
         boss_fight(event["boss"])
+
+    if ch["HP"] > 0:
+        print(event["Loot_text"])
+        ch[event["Loot_type"]] += event["Loot"]
+    
+
 
 def get_stats(cl):
     data = load_data("backgr.json")[cl]
