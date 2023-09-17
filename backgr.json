@@ -11,7 +11,8 @@
 		"HP": 12,
 		"Skill": "rage",
 		"Intro": "When you look around you notice a huge sledgehammer resting near you.\nYou also notice that you are dressed in dirty overalls and a tank top.\nYou pick up the hammer and finally stand up.",
-		"Attack_s": "You swing your hammer in attack."
+		"Attack_s": "You swing your hammer in attack.",
+		"Tot_HP": 12
 	},
 	"rogue" : {
 		"AC": 11,
@@ -22,10 +23,11 @@
 		"Wisdom": -1,
 		"Constittution": 1,
 		"Weapon": "1d8",
-		"HP": 8,
+		"HP": 10,
 		"Skill": "sneak",
 		"Intro": "You try to get up and feel something shift inside your boot.\nYou pull out a kitchen knife.\nYou are unsure how it fit in there, but gladly take it.\nYou brush off your black hoodie and jeans and get up.",
-		"Attack_s": "You make a stabbing motion with you knife."
+		"Attack_s": "You make a stabbing motion with you knife.",
+		"Tot_HP": 10
 	},
 	"bard" : {
 		"AC": 12,
@@ -36,9 +38,10 @@
 		"Wisdom":2,
 		"Constittution": 1,
 		"Weapon": "1d6",
-		"HP": 8,
+		"HP": 10,
 		"Skill": "charm", 
-		"Intro": "The first thing that commannds your attention is the guitar laying next to you.\nAfter picking it up, you notive that you are dressed in a three color jacket and flannel pants.\nNot the most appropriate attire, but hey, it makes you happy.",
-		"Attack_s": "You swing your guitar by the neck, hoping it won't break."
+		"Intro": "The first thing that commannds your attention is the guitar laying next to you.\nAfter picking it up, you notice that you are dressed in a three color jacket and flannel pants.\nNot the most appropriate attire, but hey, it makes you happy.",
+		"Attack_s": "You swing your guitar by the neck, hoping it won't break.",
+		"Tot_HP": 10
 	}
 }

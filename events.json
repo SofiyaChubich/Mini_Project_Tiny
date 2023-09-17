@@ -12,7 +12,6 @@
 			"Intro": "The survivor notices you. He decides that best defence is attack.",
 			"HP": 8,
 			"Weapon": "1d4",
-			"Legendary_sk": "None",
 			"AC": 3,
 			"Modifier": 1,
 			"Attack_s": "The survivor tries to slash you with his swiss knife.",
@@ -35,7 +34,6 @@
 			"Intro": "The corpse gets up as soon as you approach. Great, you think sarcastically, another zombie.",
 			"HP": 7,
 			"Weapon": "1d4",
-			"Legendary_sk": "None",
 			"AC": 2,
 			"Modifier": -1,
 			"Attack_s": "The zombie takes a swing at you.",
@@ -43,7 +41,7 @@
 			"Outro W":"The zombie's head falls to your feet.\nThank god."
 		},
 		"Loot_type": "Strength",
-		"Loot_text": "The survivor had a self-help book on bodybuilding.\nYou feel stronger already.",
+		"Loot_text": "The corpse had a self-help book on bodybuilding and a strange phallic object.\nYou feel stronger already.",
 		"Loot": 4
 	},
 	"3" : {
@@ -58,15 +56,14 @@
 			"Intro": "Your lamenting about the safe problem has attracted a zombie.",
 			"HP": 7,
 			"Weapon": "1d4",
-			"Legendary_sk": "None",
 			"AC": 2,
 			"Modifier": 1,
 			"Attack_s": "The zombie takes a swing at you.",
 			"Outro L": "The zombie bashes your skull in with it's fist.\nYou are dead.",
 			"Outro W":"Zombie's head falls to your feet.\nYou have survived this encounter."
 		},
-		"Loot_type": "HP",
-		"Loot_text": "Inside the safe was a box of hyper vitamins. After eating a couple, you feel much healthier.",
+		"Loot_type": "Tot_HP",
+		"Loot_text": "Inside the safe was a box of 'special pills'. After eating a couple, you feel much healthier.",
 		"Loot": 12
 	},
 	"4" : {
@@ -81,7 +78,6 @@
 			"Intro": "While walking through the pile, you feel the flesh shifting underneath your feet.\nIn front of you a fleshy abomination begins to assemble.",
 			"HP": 10,
 			"Weapon": "1d6",
-			"Legendary_sk": "None",
 			"AC": 2,
 			"Modifier": -2,
 			"Attack_s": "The flesh pile opens its maw and snaps at you.",
@@ -104,7 +100,6 @@
 			"Intro": "The survivors decide to rob you.\nAnd, honestly, who can blame them?",
 			"HP": 20,
 			"Weapon": "1d6",
-			"Legendary_sk": "Nothing",
 			"AC": 4,
 			"Modifier": 2,
 			"Attack_s": "One of the survivors shoots you with a nerf gun using real bullets.",
@@ -127,7 +122,6 @@
 			"Intro": "When the beetles see you approach they swarm around you..",
 			"HP": 15,
 			"Weapon": "1d3",
-			"Legendary_sk": "None",
 			"AC": 4,
 			"Modifier": 1,
 			"Attack_s": "One of the beetles tries to bite you.",
@@ -136,6 +130,7 @@
 		},
 		"Loot_type": "Weapon",
 		"Loot_text": "Inside of the holes that the beetles dug, you find a gun.",
+		"Attack_s": "You take a shot with your brand new gun.",
 		"Loot": "1d14"
 	}
 }
